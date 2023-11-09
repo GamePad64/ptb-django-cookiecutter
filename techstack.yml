@@ -1,0 +1,166 @@
+repo_name: GamePad64/ptb-django-cookiecutter
+report_id: b7ac6833bf77f6bac1c3781730e93e13
+repo_type: Public
+timestamp: '2023-11-09T15:21:58+00:00'
+requested_by: GamePad64
+provider: github
+branch: main
+detected_tools_count: 14
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source: Repo Metadata
+- name: Django
+  description: The Web framework for perfectionists with deadlines
+  website_url: https://www.djangoproject.com/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/994/4aGjtNQv.png
+  detection_source: "{{cookiecutter.project_slug}}/requirements/base.txt"
+  last_updated_by: Alexander Shishenko
+  last_updated_on: 2021-11-01 19:28:29.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Gunicorn
+  description: A Python WSGI HTTP Server for UNIX
+  website_url: http://gunicorn.org/
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1091/gunicorn.png
+  detection_source: "{{cookiecutter.project_slug}}/requirements/prod.txt"
+  last_updated_by: Reinier Hernández
+  last_updated_on: 2021-08-29 18:24:45.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source: "{{cookiecutter.project_slug}}/requirements/prod.txt"
+  last_updated_by: Reinier Hernández
+  last_updated_on: 2021-08-29 18:24:45.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source: ".travis.yml"
+  last_updated_by: Carlos Lugones
+  last_updated_on: 2021-06-23 08:32:11.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  version: 5.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: requirements_dev.txt
+  detection_source: requirements_dev.txt
+  last_updated_by: Carlos Lugones
+  last_updated_on: 2021-06-23 08:32:11.000000000 Z
+- name: Sphinx
+  description: Open source full text search server, designed from the ground up with
+    performance, relevance (aka search quality), and integration simplicity in mind
+  website_url: http://sphinxsearch.com/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search Engines
+  image_url: https://img.stackshare.io/service/1598/TtqoAo1V.png
+  detection_source: requirements_dev.txt
+  last_updated_by: Carlos Lugones
+  last_updated_on: 2021-08-08 21:41:56.000000000 Z
+- name: cookiecutter
+  description: Create projects from templates
+  website_url: https://github.com/audreyr/cookiecutter
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8064/74739.jpeg
+  detection_source: requirements_dev.txt
+  last_updated_by: Carlos Lugones
+  last_updated_on: 2021-06-23 08:32:11.000000000 Z
+- name: tox
+  description: We host the world's documentation. Maintained by @ericholscher &amp;
+    @agjhnsn. Not a support channel, please use GitHub.
+  website_url: https://tox.readthedocs.org/en/latest/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4825/OhsWgbsr_normal.png
+  detection_source: requirements_dev.txt
+  last_updated_by: Carlos Lugones
+  last_updated_on: 2021-06-23 08:32:11.000000000 Z
+- name: virtualenv
+  description: Local environment for python
+  website_url: https://virtualenv.pypa.io/en/latest/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3581/no-img-open-source.png
+  detection_source: "{{cookiecutter.project_slug}}/requirements/dev.txt"
+  last_updated_by: Reinier Hernández
+  last_updated_on: 2021-08-29 18:24:45.000000000 Z
+- name: alabaster
+  description: A configurable sidebar-enabled Sphinx theme
+  package_url: https://pypi.org/alabaster
+  version: 0.7.12
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20437/default_ddb692c01567b84e62be2bdf1939b66f9ea202da.png
+  detection_source_url: requirements_dev.txt
+  detection_source: requirements_dev.txt
+  last_updated_by: Carlos Lugones
+  last_updated_on: 2021-06-23 08:32:11.000000000 Z
+- name: watchdog
+  description: Filesystem events monitoring
+  package_url: https://pypi.org/watchdog
+  version: 0.9.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19927/default_bb29140b72c0fb9789e567bba0ef0ffadeaef5d4.png
+  detection_source_url: requirements_dev.txt
+  detection_source: requirements_dev.txt
+  last_updated_by: Carlos Lugones
+  last_updated_on: 2021-06-23 08:32:11.000000000 Z
