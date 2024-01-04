@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 GamePad64/ptb-django-cookiecutter is built on the following main stack:
+
 - [Python](https://www.python.org) – Languages
 - [Django](https://www.djangoproject.com/) – Frameworks (Full Stack)
 - [Gunicorn](http://gunicorn.org/) – Web Servers
@@ -11,11 +12,13 @@ GamePad64/ptb-django-cookiecutter is built on the following main stack:
 - [Travis CI](http://travis-ci.com/) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 GamePad64/ptb-django-cookiecutter is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/994/4aGjtNQv.png' alt='Django'/> [Django](https://www.djangoproject.com/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/1091/gunicorn.png' alt='Gunicorn'/> [Gunicorn](http://gunicorn.org/) – Web Servers
@@ -25,14 +28,15 @@ GamePad64/ptb-django-cookiecutter is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png' alt='Travis CI'/> [Travis CI](http://travis-ci.com/) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [GamePad64/ptb-django-cookiecutter](https://github.com/GamePad64/ptb-django-cookiecutter)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|14<br/>Tools used|11/09/23 <br/>Report generated|
+|16<br/>Tools used|01/04/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -153,16 +157,18 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (2)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (4)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg'/> PyPI (2)
+## <img width='24' height='24' src='https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg'/> PyPI (4)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[alabaster](https://pypi.org/alabaster)|v0.7.12|06/23/21|Carlos Lugones |BSD-3-Clause|N/A|
-|[watchdog](https://pypi.org/watchdog)|v0.9.0|06/23/21|Carlos Lugones |Apache-2.0|N/A|
+|[alabaster](https://pypi.org/project/alabaster)|v0.7.12|06/23/21|Carlos Lugones |BSD-3-Clause|N/A|
+|[cookiecutter](https://pypi.org/project/cookiecutter)|v1.4.0|06/23/21|Carlos Lugones |BSD-3-Clause|[CVE-2022-24065](https://github.com/advisories/GHSA-f4q6-9qm4-h8j4) (High)|
+|[tox](https://pypi.org/project/tox)|v3.14.1|06/23/21|Carlos Lugones |MIT|N/A|
+|[watchdog](https://pypi.org/project/watchdog)|v0.9.0|06/23/21|Carlos Lugones |Apache-2.0|N/A|
 
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
