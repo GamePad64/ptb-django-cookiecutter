@@ -1,11 +1,12 @@
 repo_name: GamePad64/ptb-django-cookiecutter
 report_id: b7ac6833bf77f6bac1c3781730e93e13
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T15:21:58+00:00'
+timestamp: '2024-01-04T14:58:53+00:00'
 requested_by: GamePad64
 provider: github
 branch: main
-detected_tools_count: 14
+detected_tools_count: 16
 tools:
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/GamePad64/ptb-django-cookiecutter
   detection_source: Repo Metadata
 - name: Django
   description: The Web framework for perfectionists with deadlines
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/994/4aGjtNQv.png
+  detection_source_url: https://github.com/GamePad64/ptb-django-cookiecutter/blob/main/{{cookiecutter.project_slug}}/requirements/base.txt
   detection_source: "{{cookiecutter.project_slug}}/requirements/base.txt"
   last_updated_by: Alexander Shishenko
   last_updated_on: 2021-11-01 19:28:29.000000000 Z
@@ -38,6 +41,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/GamePad64/ptb-django-cookiecutter
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -47,6 +51,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/GamePad64/ptb-django-cookiecutter
   detection_source: Repo Metadata
 - name: Gunicorn
   description: A Python WSGI HTTP Server for UNIX
@@ -56,6 +61,7 @@ tools:
   category: Application Hosting
   sub_category: Web Servers
   image_url: https://img.stackshare.io/service/1091/gunicorn.png
+  detection_source_url: https://github.com/GamePad64/ptb-django-cookiecutter/blob/main/{{cookiecutter.project_slug}}/requirements/prod.txt
   detection_source: "{{cookiecutter.project_slug}}/requirements/prod.txt"
   last_updated_by: Reinier Hernández
   last_updated_on: 2021-08-29 18:24:45.000000000 Z
@@ -67,6 +73,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/GamePad64/ptb-django-cookiecutter/blob/main/{{cookiecutter.project_slug}}/requirements/prod.txt
   detection_source: "{{cookiecutter.project_slug}}/requirements/prod.txt"
   last_updated_by: Reinier Hernández
   last_updated_on: 2021-08-29 18:24:45.000000000 Z
@@ -79,6 +86,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/GamePad64/ptb-django-cookiecutter/blob/main/.travis.yml
   detection_source: ".travis.yml"
   last_updated_by: Carlos Lugones
   last_updated_on: 2021-06-23 08:32:11.000000000 Z
@@ -92,7 +100,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
-  detection_source_url: requirements_dev.txt
+  detection_source_url: https://github.com/GamePad64/ptb-django-cookiecutter/blob/main/requirements_dev.txt
   detection_source: requirements_dev.txt
   last_updated_by: Carlos Lugones
   last_updated_on: 2021-06-23 08:32:11.000000000 Z
@@ -105,6 +113,7 @@ tools:
   category: Application Utilities
   sub_category: Search Engines
   image_url: https://img.stackshare.io/service/1598/TtqoAo1V.png
+  detection_source_url: https://github.com/GamePad64/ptb-django-cookiecutter/blob/main/requirements_dev.txt
   detection_source: requirements_dev.txt
   last_updated_by: Carlos Lugones
   last_updated_on: 2021-08-08 21:41:56.000000000 Z
@@ -114,6 +123,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/8064/74739.jpeg
+  detection_source_url: https://github.com/GamePad64/ptb-django-cookiecutter/blob/main/requirements_dev.txt
   detection_source: requirements_dev.txt
   last_updated_by: Carlos Lugones
   last_updated_on: 2021-06-23 08:32:11.000000000 Z
@@ -124,6 +134,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/4825/OhsWgbsr_normal.png
+  detection_source_url: https://github.com/GamePad64/ptb-django-cookiecutter/blob/main/requirements_dev.txt
   detection_source: requirements_dev.txt
   last_updated_by: Carlos Lugones
   last_updated_on: 2021-06-23 08:32:11.000000000 Z
@@ -133,12 +144,13 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/3581/no-img-open-source.png
+  detection_source_url: https://github.com/GamePad64/ptb-django-cookiecutter/blob/main/{{cookiecutter.project_slug}}/requirements/dev.txt
   detection_source: "{{cookiecutter.project_slug}}/requirements/dev.txt"
   last_updated_by: Reinier Hernández
   last_updated_on: 2021-08-29 18:24:45.000000000 Z
 - name: alabaster
   description: A configurable sidebar-enabled Sphinx theme
-  package_url: https://pypi.org/alabaster
+  package_url: https://pypi.org/project/alabaster
   version: 0.7.12
   license: BSD-3-Clause
   open_source: true
@@ -146,13 +158,49 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20437/default_ddb692c01567b84e62be2bdf1939b66f9ea202da.png
-  detection_source_url: requirements_dev.txt
+  detection_source_url: https://github.com/GamePad64/ptb-django-cookiecutter/blob/main/requirements_dev.txt
+  detection_source: requirements_dev.txt
+  last_updated_by: Carlos Lugones
+  last_updated_on: 2021-06-23 08:32:11.000000000 Z
+- name: cookiecutter
+  description: A command-line utility that creates projects from project templates,
+    e.g
+  package_url: https://pypi.org/project/cookiecutter
+  version: 1.4.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20075/default_7ab6b1c940c208874d4a483f0d832c7b45b3d24e.png
+  detection_source_url: https://github.com/GamePad64/ptb-django-cookiecutter/blob/main/requirements_dev.txt
+  detection_source: requirements_dev.txt
+  last_updated_by: Carlos Lugones
+  last_updated_on: 2021-06-23 08:32:11.000000000 Z
+  vulnerabilities:
+  - name: OS Command Injection in cookiecutter
+    cve_id: CVE-2022-24065
+    cve_url: https://github.com/advisories/GHSA-f4q6-9qm4-h8j4
+    detected_date: Jun 10
+    severity: high
+    first_patched: 2.1.1
+- name: tox
+  description: Tox is a generic virtualenv management and test command line tool
+  package_url: https://pypi.org/project/tox
+  version: 3.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19991/default_f2178576c59f6927768590a32b6ef092891768c5.png
+  detection_source_url: https://github.com/GamePad64/ptb-django-cookiecutter/blob/main/requirements_dev.txt
   detection_source: requirements_dev.txt
   last_updated_by: Carlos Lugones
   last_updated_on: 2021-06-23 08:32:11.000000000 Z
 - name: watchdog
   description: Filesystem events monitoring
-  package_url: https://pypi.org/watchdog
+  package_url: https://pypi.org/project/watchdog
   version: 0.9.0
   license: Apache-2.0
   open_source: true
@@ -160,7 +208,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19927/default_bb29140b72c0fb9789e567bba0ef0ffadeaef5d4.png
-  detection_source_url: requirements_dev.txt
+  detection_source_url: https://github.com/GamePad64/ptb-django-cookiecutter/blob/main/requirements_dev.txt
   detection_source: requirements_dev.txt
   last_updated_by: Carlos Lugones
   last_updated_on: 2021-06-23 08:32:11.000000000 Z
